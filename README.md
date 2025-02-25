@@ -1,21 +1,26 @@
 # customers-purchases-e-commerce
-### Задача:
+### Objective:
 
-Проанализировать совершенные покупки:
+Analyze customer purchase behavior with the following tasks:
 
-1. Провеcти разведочный анализ данных: пользователи, которые совершили покупку только один раз; среднее число заказов, которые не доставляются; день недели, в который товар чаще всего покупается, среднее количество покупок в неделю для каждого пользователя (внутри месяца может быть не целое количество недель).
-2. Детализировать причины сбоев доставки.
-3. Выполнить когортный анализ пользователей. В период с января по декабрь выявить когорту с самым высоким retention на 3-й месяц.
-4. Построить RFM-сегментацию пользователей. Для каждого RFM-сегмента построить границы метрик recency, frequency и monetary для интерпретации этих кластеров.
+- Perform exploratory data analysis:
+  - Identify users who made only one purchase.
+  - Calculate the average number of undelivered orders.
+  - Determine the most common day of the week for purchases.
+  - Compute the average number of purchases per week for each user (considering that a month may not contain a whole number of weeks).
+- Identify the key reasons for delivery failures.
+- Conduct cohort analysis:
+  - Identify the cohort with the highest retention rate in the third month within the period from January to December.
+- Build an RFM segmentation:
+  - Define metric thresholds for recency, frequency, and monetary value for interpreting user clusters.
 
-### Стек:
-
+### Tech Stack:
     Pandas, NumPy, Matplotlib, Seaborn
 
-### Реализация проекта:
+### Project Implementation:
 
-- Провела предварительный анализ и предобработку данных
-- Проанализировала поведение пользователей и работу доставки заказанных товаров
-- Провела когортный анализ пользователей
-- Построила RFM-сегментацию пользователей
+- Performed preliminary data analysis.
+- Analyzed customer behavior and order delivery performance.
+- Conducted cohort analysis of users.
+- Built an RFM segmentation model for customer classification.
 
